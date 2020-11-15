@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+    <html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        
+        <title>Book List | Organize</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a class="nav__logo">Book List</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Inicio</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">O APP</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Tecnologias</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>BOOK</span><br>LIST.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Ir para baixo</a>
+                    </div>
+
+                    <img src="assets/img/perfil.png" alt="" class="home__img">
+                </div>
+            </section>
+            <!--===== Book List =====-->
+            
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Interface do aplicativo</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/img1.png" alt="">
+
+                        <div class="portfolio__link">
+                            <img class="portfolio__link-name" src="./assets/img/Group 1.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio__img">
+                        <img src="assets/img/img2.png" alt="">
+
+                        <div class="portfolio__link">
+                            <img class="portfolio__link-name" src="./assets/img/Group 2.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio__img">
+                        <img src="assets/img/img3.png" alt="">
+
+                        <div class="portfolio__link">
+                            <img class="portfolio__link-name" src="./assets/img/Group 3.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">Oque é?</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="skills__img">
+                        <img src="assets/img/tec.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">Book List</h2>
+                        <span class="about__profession">Uma aplicação leve e pratica para te ajudar no dia a dia, organizando sua leitura, auxiliando nos estudos.</span>
+                        <p class="about__text">• Múltiplas telas.</br>• Formulário e validação de dados.</br>• Banco de dados AsyncStorage.</br>• Acesso a câmera.</p>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Tecnologias</h2>
+
+                <span class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Desenvolvimento</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">Scss</span>
+                        <span class="skills__name">React</span>
+                        <span class="skills__name">Expo</span>
+                        
+                        <h3 class="skills__subtitle">Design</h3>
+                        <span class="skills__name">Figma</span>
+                        <span class="skills__name">Photoshop</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Book List</h2>
+                    <p class="footer__text">O aplicativo que te ajuda a organizar</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Inicio</a></li><li><a href="#portfolio" class="footer__link">O APP</a></li>
+                        
+                        <li><a href="#about" class="footer__link">Sobre</a></li>
+                        <li><a href="#skills" class="footer__link">Tecnologias</a></li>
+                    </ul>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"></i>Ir para cima <i class='bx bx-down-arrow-alt' ></i></a>
+                </div>
+                
+
+            </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
